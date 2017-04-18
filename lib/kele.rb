@@ -1,8 +1,10 @@
-require "httparty"
-require "json"
+require 'httparty'
+require 'json'
+require './lib/roadmap.rb'
 
 class Kele
   include HTTParty
+  include Roadmap
 
   def initialize(email, password)
     
