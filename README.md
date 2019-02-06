@@ -10,6 +10,11 @@ This was completed as a project for Bloc, as the purpose of the Kele API Client 
 
 With the skeleton of Kele created, add an initialize method that creates a new Kele client authorized with a username and password. The client can be used as follows:
 
+1   $ irb
+2   >> require './lib/kele'
+3   => true
+4   >> Kele.new("jane@gmail.com", "abc123")
+
   1. Bloc's base API 
   2. The user's authentication token, which can be retrieved from the sessions endpoint.
   
